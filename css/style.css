@@ -1,0 +1,38 @@
+* {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.logo > h1 {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: #1F2937;
+}
+
+.links > ul > li,
+.links > ul > li > a {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    text-decoration: none;
+    background-color: #1F2937;
+}
