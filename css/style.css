@@ -223,3 +223,18 @@ header {
     font-weight: bold;
     cursor: pointer;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 12vh;
+}
+
+.footer > p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+    text-align: center;
+}
