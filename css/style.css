@@ -130,3 +130,36 @@ header {
 .subtext-item > p {
     font-size: 18px;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    height: 60vh;
+    background-color: #E5E7EB;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 60%;
+}
+
+.text > .quotext {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.text > .source {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 1rem;
+}
